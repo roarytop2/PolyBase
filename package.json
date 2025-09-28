@@ -1,0 +1,34 @@
+{
+  "name": "polybase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roarytop2/PolyBase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roarytop2/PolyBase/issues"
+  },
+  "homepage": "https://github.com/roarytop2/PolyBase#readme",
+  "dependencies": {
+    "@babel/parser": "^7.28.4",
+    "@babel/traverse": "^7.28.4",
+    "commander": "^12.1.0",
+    "web-features": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "bin": {
+    "baseline-checker": "./src/index.js"
+  }
+}
