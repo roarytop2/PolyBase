@@ -216,4 +216,4 @@ module.exports = {
 fs.writeFileSync('./src/index.js', indexContent);
 fs.writeFileSync('./src/baselineCheck.js', baselineCheckContent);
 
-console.log('✅ Fixed imports in index.js and baselineCheck.js');
+console.log('Fixed imports in index.js and baselineCheck.js');
